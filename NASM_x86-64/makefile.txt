@@ -1,0 +1,3 @@
+nasm -f elf64 Convertidor_Mayus_minus.asm
+ld -s -o Convertidor_Mayus_minus Convertidor_Mayus_minus.o
+./Convertidor_Mayus_minus
